@@ -1,0 +1,291 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background: #0c2840;
+    background: linear-gradient(135deg, #0c2840 0%, #6a70d1 33%, #3e5aa4 66%);
+}
+/* index */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #02080d;
+    background: linear-gradient(135deg, #02080d 0%, #6065b3 33%, #304680 66%);
+    .header__imagen {
+        margin: 10px 0;
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 80%;
+        }
+    }
+    .header__titulo {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        h1 {
+            font-size: 67px;
+            font-family: 'Bebas Neue', cursive;
+            color: #1E1E1F;
+        }
+    }
+    .header__nav {
+        width: 45%;
+        div {
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+                li {
+                    list-style: none;
+                    :hover {
+                        color: white;
+                    }
+                    a {
+                        color: #1E1E1F;
+                        text-decoration: none;
+                        font-size: 28px;
+                        font-family: 'Bebas Neue', cursive;
+                    }
+                }
+            }
+        }
+    }
+}
+.datos__titulo {
+    text-align: center;
+    margin: 50px 0;
+    h2 {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 50px;
+    }
+}
+.encabezado {
+    display: flex;
+    .datos {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        .datos__informacion {
+            margin: 15px;
+            h4 {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 35px;
+                margin: 5px;
+            }
+            p {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 20px;
+                :hover {
+                    color: white;
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+    .perfil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 66%;
+        .perfil__titulo {
+            margin: 50px 100px 30px 0;
+            h4 {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 35px;
+            }
+        }
+        .perfil__texto {
+            display: block;
+            margin: 0 auto;
+            width: 66%;
+            p {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 20px;
+                text-align: justify;
+            }
+        }
+    }
+}
+.biografia {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    .biografia__titulo {
+        margin: 50px 0 30px 30px;
+        font-family: 'Fjalla One', sans-serif;
+            h2 {
+                font-size: 50px;
+        }
+    }
+    .biografia__subtitulo {
+        text-align: center;
+        margin: 50px 0;
+        h4 {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 35px;
+        }
+    }
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .biografia__texto {
+            font-family: 'Fjalla One', sans-serif;
+            width: 33%;
+            p {
+                padding: 10px;
+                font-size: 20px;
+                text-align: justify;
+            }
+        }
+        .biografia__imagen-daisy {
+            width: 25%;
+            :hover {
+                border: #1E1E1F 5px solid;
+            }
+            img {
+                width: 95%;
+            }
+        }
+        .biografia__imagen-4x4 {
+            width: 25%;
+            :hover {
+                border: #1E1E1F 5px solid;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .biografia__imagen-familia {
+            width: 33%;
+            img {
+                width: 100%;
+            }
+            p {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+    }
+}
+.educacion {
+    display: flex;
+    flex-direction: column;
+    .educacion__titulo {
+        h2 {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 50px;
+            margin: 20px;
+        }
+    }
+    .educacion__programador {
+        h4 {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 35px;
+            margin: 15px;
+        }
+    }
+    .educacion__institucion {
+        h6 {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 27px;
+            margin: 10px;
+        }
+    }
+    .educacion__contenido {
+        p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 20px;
+            margin: 5px;
+        }
+    }
+}
+.conocimientos {
+    display: flex;
+    flex-direction: column;
+    .conocimientos__titulo {
+        h2 {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 50px;
+            text-align: center;
+            margin: 30px 0;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        .conocimientos__lenguajes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                height: 100px;
+                width: 100px;
+            }
+            p {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 20px;
+                text-align: center;
+                padding: 5px;
+            }
+        }
+    }
+}
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    .portfolio__titulo {
+        h2 {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 50px;
+            margin: 20px;
+        }
+    }
+    .portfolio__paginas {
+        margin: 10px;
+        :hover {
+            color: white;
+        }
+        a {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+.footer {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 50px;
+    .footer__redes {
+        a {
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            img {
+                height: 30px;
+                width: 30px;
+                margin-right: 7px;
+            }
+            p {
+                font-family: 'Bebas Neue', cursive;
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
