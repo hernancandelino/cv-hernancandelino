@@ -26,6 +26,10 @@ p {
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;    
 }
+li {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;    
+}
 a {
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
@@ -204,6 +208,25 @@ a {
         margin: 5px;
     }
 }
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    .experiencia__titulo {
+        margin: 20px;
+    }
+    .experiencia__puesto {
+        margin: 15px;
+    }
+    .experiencia__empresa {
+        margin: 10px;
+    }
+    .experiencia__contenido {
+        margin: 5px;
+        .items {
+            margin: 5px 0;
+        }
+    }
+}
 .conocimientos__titulo {
     h2 {
         text-align: center;
@@ -276,6 +299,9 @@ a {
         font-size: 24px;    
     }
     p {
+        font-size: 16px;    
+    }
+    li {
         font-size: 16px;    
     }
     a {
@@ -360,6 +386,20 @@ a {
             margin: 3px;
         }
     }
+    .experiencia {
+        .experiencia__titulo {
+            margin: 15px;
+        }
+        .experiencia__puesto {
+            margin: 10px;
+        }
+        .experiencia__empresa {
+            margin: 7px;
+        }
+        .experiencia__contenido {
+            margin: 3px;
+        }
+    }
     .conocimientos__titulo {
         margin: 25px 0;
     }
@@ -407,6 +447,9 @@ a {
         font-size: 22px;    
     }
     p {
+        font-size: 14px;    
+    }
+    li {
         font-size: 14px;    
     }
     a {
@@ -530,6 +573,20 @@ a {
             margin: 3px;
         }
     }
+    .experiencia {
+        .experiencia__titulo {
+            margin: 10px;
+        }
+        .experiencia__puesto {
+            margin: 7px;
+        }
+        .experiencia__empresa {
+            margin: 5px;
+        }
+        .experiencia__contenido {
+            margin: 3px;
+        }
+    }
     .conocimientos__titulo {
         margin: 10px 0;
     }
@@ -580,6 +637,9 @@ a {
         font-size: 16px;    
     }
     p {
+        font-size: 12px;    
+    }
+    li {
         font-size: 12px;    
     }
     a {
@@ -701,6 +761,20 @@ a {
             margin: 4px;
         }
         .educacion__contenido {
+            margin: 3px;
+        }
+    }
+    .experiencia {
+        .experiencia__titulo {
+            margin: 8px;
+        }
+        .experiencia__puesto {
+            margin: 6px;
+        }
+        .experiencia__empresa {
+            margin: 4px;
+        }
+        .experiencia__contenido {
             margin: 3px;
         }
     }

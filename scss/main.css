@@ -10,31 +10,36 @@ body {
 
 h1 {
   font-size: 67px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 h2 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 50px;
 }
 
 h4 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 35px;
 }
 
 h6 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 27px;
 }
 
 p {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px;
+}
+
+li {
+  font-family: "Fjalla One", sans-serif;
   font-size: 20px;
 }
 
 a {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 20px;
   color: black;
   text-decoration: none;
@@ -42,70 +47,44 @@ a {
 
 /* index */
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   background: #02080d;
   background: linear-gradient(135deg, #02080d 0%, #6065b3 33%, #304680 66%);
 }
-
 .header .header__imagen {
   margin: 10px 0;
   width: 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .header .header__imagen img {
   width: 80%;
 }
-
 .header .header__titulo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 40%;
 }
-
 .header .header__titulo h1 {
   color: #1E1E1F;
 }
-
 .header .header__nav {
   width: 45%;
 }
-
 .header .header__nav div ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 .header .header__nav div ul li {
   list-style: none;
 }
-
 .header .header__nav div ul li :hover {
   color: white;
 }
-
 .header .header__nav div ul li a {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   color: #1E1E1F;
   font-size: 28px;
 }
@@ -116,199 +95,147 @@ a {
 }
 
 .encabezado {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .encabezado .datos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 33%;
 }
-
 .encabezado .datos .datos__informacion {
   margin: 15px;
 }
-
 .encabezado .datos .datos__informacion h4 {
   margin: 5px;
 }
-
 .encabezado .datos .datos__informacion p :hover {
   color: white;
 }
-
 .encabezado .perfil {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 66%;
 }
-
 .encabezado .perfil .perfil__titulo {
   margin: 50px 0 30px 0;
 }
-
 .encabezado .perfil .perfil__texto {
   display: block;
   margin: 0 auto;
   width: 66%;
 }
-
 .encabezado .perfil .perfil__texto p {
   text-align: justify;
 }
 
 .biografia {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
-
 .biografia .biografia__titulo {
   margin: 50px 0 30px 30px;
 }
-
 .biografia .biografia__subtitulo {
   text-align: center;
   margin: 50px 0;
 }
-
 .biografia .articulo-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .biografia .articulo-1 .biografia__texto {
   width: 40%;
 }
-
 .biografia .articulo-1 .biografia__texto p {
   padding: 10px;
   text-align: justify;
 }
-
 .biografia .articulo-1 .biografia__imagen-daisy {
   width: 25%;
 }
-
 .biografia .articulo-1 .biografia__imagen-daisy img {
   width: 100%;
 }
-
 .biografia .articulo-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .biografia .articulo-2 .biografia__texto {
   width: 40%;
 }
-
 .biografia .articulo-2 .biografia__texto p {
   padding: 10px;
   text-align: justify;
 }
-
 .biografia .articulo-2 .biografia__imagen-4x4 {
   width: 30%;
 }
-
 .biografia .articulo-2 .biografia__imagen-4x4 img {
   width: 100%;
 }
-
 .biografia .articulo-3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .biografia .articulo-3 .biografia__texto {
   width: 40%;
 }
-
 .biografia .articulo-3 .biografia__texto p {
   padding: 10px;
   text-align: justify;
 }
-
 .biografia .articulo-3 .biografia__imagen-familia {
   width: 50%;
 }
-
 .biografia .articulo-3 .biografia__imagen-familia img {
   width: 100%;
 }
-
 .biografia .articulo-3 .biografia__imagen-familia p {
   font-size: 15px;
   text-align: center;
 }
 
 .educacion {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .educacion .educacion__titulo {
   margin: 20px;
 }
-
 .educacion .educacion__programador {
   margin: 15px;
 }
-
 .educacion .educacion__institucion {
   margin: 10px;
 }
-
 .educacion .educacion__contenido {
   margin: 5px;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+}
+.experiencia .experiencia__titulo {
+  margin: 20px;
+}
+.experiencia .experiencia__puesto {
+  margin: 15px;
+}
+.experiencia .experiencia__empresa {
+  margin: 10px;
+}
+.experiencia .experiencia__contenido {
+  margin: 5px;
+}
+.experiencia .experiencia__contenido .items {
+  margin: 5px 0;
 }
 
 .conocimientos__titulo h2 {
@@ -317,87 +244,55 @@ a {
 }
 
 .conocimientos {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-
 .conocimientos .conocimientos__lenguajes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .conocimientos .conocimientos__lenguajes img {
   width: 100px;
   height: 100px;
 }
-
 .conocimientos .conocimientos__lenguajes p {
   text-align: center;
 }
 
 .portfolio {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .portfolio .portfolio__titulo {
   margin: 20px;
 }
-
 .portfolio .portfolio__paginas {
   margin: 10px;
 }
-
 .portfolio .portfolio__paginas :hover {
   color: white;
 }
 
 .footer {
   background: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding: 30px;
   margin-top: 50px;
 }
-
 .footer .footer__redes a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .footer .footer__redes a img {
   height: 30px;
   width: 30px;
   margin-right: 7px;
 }
-
 .footer .footer__redes a p {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   color: white;
 }
 
@@ -415,6 +310,9 @@ a {
     font-size: 24px;
   }
   p {
+    font-size: 16px;
+  }
+  li {
     font-size: 16px;
   }
   a {
@@ -465,6 +363,18 @@ a {
   .educacion .educacion__contenido {
     margin: 3px;
   }
+  .experiencia .experiencia__titulo {
+    margin: 15px;
+  }
+  .experiencia .experiencia__puesto {
+    margin: 10px;
+  }
+  .experiencia .experiencia__empresa {
+    margin: 7px;
+  }
+  .experiencia .experiencia__contenido {
+    margin: 3px;
+  }
   .conocimientos__titulo {
     margin: 25px 0;
   }
@@ -488,7 +398,6 @@ a {
     margin-right: 5px;
   }
 }
-
 @media (min-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 55px;
@@ -505,13 +414,14 @@ a {
   p {
     font-size: 14px;
   }
+  li {
+    font-size: 14px;
+  }
   a {
     font-size: 14px;
   }
   .header {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   .header .header__imagen {
     margin: 7px 0;
@@ -533,19 +443,11 @@ a {
     margin: 20px 0;
   }
   .encabezado {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .encabezado .datos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
   }
   .encabezado .datos .datos__informacion {
@@ -570,10 +472,7 @@ a {
     margin: 25px 0;
   }
   .biografia .articulo-1 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .biografia .articulo-1 .biografia__texto {
     width: 66%;
@@ -589,10 +488,7 @@ a {
     width: 100%;
   }
   .biografia .articulo-2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .biografia .articulo-2 .biografia__texto {
     width: 66%;
@@ -608,10 +504,7 @@ a {
     width: 100%;
   }
   .biografia .articulo-3 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .biografia .articulo-3 .biografia__texto {
     width: 66%;
@@ -641,14 +534,24 @@ a {
   .educacion .educacion__contenido {
     margin: 3px;
   }
+  .experiencia .experiencia__titulo {
+    margin: 10px;
+  }
+  .experiencia .experiencia__puesto {
+    margin: 7px;
+  }
+  .experiencia .experiencia__empresa {
+    margin: 5px;
+  }
+  .experiencia .experiencia__contenido {
+    margin: 3px;
+  }
   .conocimientos__titulo {
     margin: 10px 0;
   }
   .conocimientos {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   .conocimientos .conocimientos__lenguajes {
     margin: 5px 0;
@@ -673,7 +576,6 @@ a {
     margin-right: 4px;
   }
 }
-
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 29px;
@@ -690,13 +592,14 @@ a {
   p {
     font-size: 12px;
   }
+  li {
+    font-size: 12px;
+  }
   a {
     font-size: 12px;
   }
   .header {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   .header .header__imagen {
     margin: 5px 0;
@@ -716,19 +619,11 @@ a {
     margin: 12px 0;
   }
   .encabezado {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .encabezado .datos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
   }
   .encabezado .datos .datos__informacion {
@@ -753,10 +648,7 @@ a {
     margin: 15px 0;
   }
   .biografia .articulo-1 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .biografia .articulo-1 .biografia__texto {
     width: 80%;
@@ -772,10 +664,7 @@ a {
     width: 100%;
   }
   .biografia .articulo-2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .biografia .articulo-2 .biografia__texto {
     width: 80%;
@@ -791,10 +680,7 @@ a {
     width: 100%;
   }
   .biografia .articulo-3 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .biografia .articulo-3 .biografia__texto {
     width: 80%;
@@ -827,14 +713,24 @@ a {
   .educacion .educacion__contenido {
     margin: 3px;
   }
+  .experiencia .experiencia__titulo {
+    margin: 8px;
+  }
+  .experiencia .experiencia__puesto {
+    margin: 6px;
+  }
+  .experiencia .experiencia__empresa {
+    margin: 4px;
+  }
+  .experiencia .experiencia__contenido {
+    margin: 3px;
+  }
   .conocimientos__titulo {
     margin: 7px 0;
   }
   .conocimientos {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   .conocimientos .conocimientos__lenguajes {
     margin: 4px 0;
@@ -852,10 +748,7 @@ a {
   .footer {
     padding: 10px;
     margin-top: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .footer .footer__redes a {
     margin: 5px 0;
@@ -868,5 +761,4 @@ a {
   .footer .footer__redes a p {
     font-size: 10px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
