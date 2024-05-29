@@ -306,15 +306,6 @@ a {
     scale: 100%;
   }
 }
-@keyframes show {
-  from {
-    position: absolute;
-    right: 0px;
-  }
-  to {
-    position: relative;
-  }
-}
 .animacion {
   view-timeline-name: --image;
   view-timeline-axis: block;
