@@ -297,8 +297,15 @@ a {
 		scale: 100%;
 	}
 }
-@keyframes move {
+@keyframes show {
+	from {
+        position: absolute;
+        right: 0px;
+	}
 
+	to {
+        position:relative
+    }
 }
 .animacion {
 	view-timeline-name: --image;
